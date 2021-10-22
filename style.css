@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+}
+
+form * {
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(0,0,0, .75);
+    outline-color: hsl(210, 100%, 60%);
+
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+}
+
+fieldset {
+    border: none;
+}
+
+legend, input:not([type=radio]), textarea {
+    margin-bottom: 1em;
+}
+
+input[type=radio] {
+    margin-top: .7em;
+}
+
+input {
+    border-radius: 25px;
+    border: 2px solid darkgrey;
+    inset: unset;
+}
